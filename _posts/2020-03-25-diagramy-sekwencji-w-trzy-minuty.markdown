@@ -25,9 +25,9 @@ Esencją diagramów sekwencji jest komunikacja między obiektami. Komunikaty maj
 
 W kontekście programowania obiektowego najważniejszym rodzajem komunikatu jest **wywołanie metody**. Na diagramie ma to postać strzałki z wypełnionym grotem, biegnącej od linii życia obiektu wywołującego metodę, do linii życia obiektu, na którym metoda jest wywoływana. Z reguły tuż nad strzałką umieszcza się nazwę wywoływanej metody (opcjonalnie z przekazywanymi argumentami, jeżeli są istotne).
 
-Wąskie, pionowe prostokąty umieszczane na liniach życia obrazują czas wykonywania metody.
+Czasami istotne jest także zaznaczenie wyniku zwracanego przez wywołaną metodę. Zwrócenie wartości oznacza się przerywaną strzałką z otwartym grotem. Jej kierunek jest przeciwny do kierunku strzałki wywołania metody. Jednak same strzałki nie mówią nam zbyt wiele, dlatego zwykle umieszcza się przy nich opisy wyjaśniające, co jest wynikiem zwracanym przez daną metodę.
 
-Czasami istotne jest zaznaczenie wyniku zwracanego przez wywołaną metodę. Zwrócenie wartości oznacza się przerywaną strzałką z otwartym grotem. Jej kierunek jest przeciwny do kierunku strzałki wywołania metody. Jednak same strzałki nie mówią nam zbyt wiele, dlatego zwykle umieszcza się przy nich opisy wyjaśniające, co jest wynikiem zwracanym przez daną metodę.
+Pionowe prostokąty umieszczane na liniach życia obrazują czas wykonywania metody. Warto wykorzystywać je do obrazowania sytuacji, w których dana metoda jest odpowiedzialna za dalsze wywołania innych.
 
 <center><img src="/images/diagram_sekwencji_3.png"></center>
 
