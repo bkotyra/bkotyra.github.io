@@ -7,12 +7,10 @@ categories: tdd
 ---
 
 
-# Wprowadzenie do Test-Driven Development (TDD)
-
 Test-Driven Development stanowi specyficzną technikę wytwarzania oprogramowania, zaliczaną do metodyk zwinnych (agile). Jak wynika z samej nazwy, proces tworzenia oprogramowania jest w tym podejściu sterowany / kierowany testami.
 
 
-## Kilka słów o historii
+# Kilka słów o historii
 
 TDD wywodzi się z metodyki Programowania Ekstremalnego (XP) - zbioru 29 reguł dotyczących prowadzenia projektów programistycznych, opublikowanego pierwotnie w 1999 roku. Jedną z najważniejszych reguł XP było kodowanie testów jednostkowych **przed** rozpoczęciem faktycznej implementacji ("test first"). Ta idea stanowi podstawę Test-Driven Development.
 
@@ -21,7 +19,7 @@ Za wynalazcę techniki TDD uznawany jest Kent Beck. On sam mówi jednak raczej o
 Obecnie TDD stanowi samodzielną technikę (kontekst Programowania Ekstremalnego nie jest "obowiązkowy").
 
 
-## Na czym polega TDD?
+# Na czym polega TDD?
 
 W najprostszym ujęciu, TDD koncentruje się na implementacji testów jednostkowych przed rozpoczęciem pisania kodu produkcyjnego. Czyli: najpierw opisujemy testami w jaki sposób kod (którego jeszcze nie ma) powinien działać, a dopiero potem faktycznie implementujemy daną funkcjonalność.
 
@@ -32,7 +30,7 @@ Na początku należałoby podkreślić, że wszelkie reguły i dobre praktyki do
 Testy jednostkowe powinny być możliwie proste i krótkie (co w naturalny sposób redukuje szanse na popełnienie błędu w samym teście). Nie powinniśmy zajmować się testowaniem szczegółów implementacyjnych, ani "na siłę" dążyć do stuprocentowego pokrycia kodu (łącznie z setterami, getterami itd.) - zamiast tego znacznie lepiej jest skoncentrować się na testowaniu zachowań, jakich oczekujemy od naszego systemu.
 
 
-## Cykl "red / green / refactor"
+# Cykl "red / green / refactor"
 
 Pojedynczy cykl techniki TDD składa się z trzech faz, powszechnie określanych jako "czerwone, zielone, refaktoryzacja".
 
@@ -49,7 +47,7 @@ Uwaga: refaktoryzacja stanowi **obowiązkowy** element TDD. Pomijanie tego etapu
 Ważne jest podkreślenie, że opisany cykl pracy powinien być **możliwie krótki**. Absolutnie nie chodzi tutaj o programowanie wyłącznie testów przez kilka dni, żeby potem siadać do implementacji nie pamiętając już o co chodziło w pierwszych testach.
 
 
-## Dlaczego najpierw testy?
+# Dlaczego najpierw testy?
 
 Idea TDD może budzić pewne zdziwienie - właściwie dlaczego należy zaczynać od testów? Ok, testy są ważne, ale co za różnica czy napiszemy je na przed, czy po implementacji?
 
@@ -62,7 +60,7 @@ Kolejna ważna rzecz - TDD wymusza na nas pisanie kodu, który jest testowalny. 
 No i na koniec - zaczynanie od implementacji testów gwarantuje, że testy faktycznie powstaną. Jak często zdarzało się w praktyce, że testy miały zostać dodane na końcu cyklu, ale "nie było na to czasu"? No właśnie.
 
 
-## Trzy prawa TDD
+# Trzy prawa TDD
 
 Robert Martin ("Uncle Bob"), w oparciu o swoją praktykę, sformułował trzy prawa Test-Driven Development. W wolnym tłumaczeniu:
 
@@ -73,7 +71,7 @@ Robert Martin ("Uncle Bob"), w oparciu o swoją praktykę, sformułował trzy pr
 Tym samym programista musi zacząć od kodu testującego. Druga reguła ogranicza sytuację, w której testy są pisane "dużymi porcjami" - w zasadzie kiedy tylko dochodzimy do sytuacji, w której test nie przechodzi, należy przerwać i zająć się kodem produkcyjnym. Jednak, zgodnie z trzecią regułą, kodu produkcyjnego należy napisać jedynie tyle, żeby test zaczął przechodzić.
 
 
-## Konsekwencje
+# Konsekwencje
 
 Praktyka pokazuje, że stosowanie TDD prowadzi do większej produktywności zespołu i krótszego czasu realizacji projektów. Co ciekawe, programiści konsekwentnie stosujący TDD twierdzą, że w zasadzie nie potrzebują korzystać z debuggerów.
 
