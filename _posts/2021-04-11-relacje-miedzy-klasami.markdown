@@ -10,6 +10,7 @@ Diagramy klas w UML pozwalają na wyrażanie relacji między poszczególnymi kla
 
 Istotna jest umiejętność rozróżnienia tych symboli. Każda ze strzałek ma swoje własne, specyficzne znaczenie. Stosowanie ich w niewłaściwy sposób wprowadza sporo zamieszania i utrudnia (lub nawet uniemożliwia) właściwą interpretację diagramu.
 
+---
 
 # Dziedziczenie
 
@@ -17,6 +18,7 @@ Najbardziej oczywistą dla osób poznających UML jest relacja **dziedziczenia**
 
 <center><img src="/images/dziedziczenie.png"></center>
 
+---
 
 # Realizacja (interfejsu)
 
@@ -24,6 +26,7 @@ Drugi, dość podobny przypadek, dotyczy **realizacji interfejsu**. Strzałka r�
 
 <center><img src="/images/realizacja.png"></center>
 
+---
 
 # Kompozycja
 
@@ -31,6 +34,7 @@ Kolejny rodzaj relacji to **kompozycja**. Tutaj mówimy o sytuacji, w której je
 
 <center><img src="/images/kompozycja.png"></center>
 
+---
 
 # Agregacja
 
@@ -38,6 +42,7 @@ Podobną, ale nieco "luźniejszą" relacją jest **agregacja**. Również mówim
 
 <center><img src="/images/agregacja.png"></center>
 
+---
 
 # Powiązanie
 
@@ -45,6 +50,7 @@ Następny rodzaj relacji to **powiązanie**. Na poziomie implementacji określa 
 
 <center><img src="/images/powiazanie.png"></center>
 
+---
 
 # Zależność
 
