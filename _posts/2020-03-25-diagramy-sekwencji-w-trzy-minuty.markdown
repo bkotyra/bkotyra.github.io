@@ -5,6 +5,7 @@ author: Bartłomiej Kotyra
 date:   2020-03-25 17:00:00 +0100
 categories: uml
 ---
+
 Jednym z bardziej istotnych narzędzi należących do UML są diagramy sekwencji.
 
 Diagramy sekwencji należą do grupy **diagramów interakcji**. Jak można wywnioskować z tej nazwy, ich przeznaczeniem jest modelowanie **interakcji pomiędzy elementami systemu**.

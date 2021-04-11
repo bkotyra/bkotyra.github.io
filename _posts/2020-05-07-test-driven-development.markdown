@@ -6,7 +6,6 @@ date:   2020-05-07 15:00:00 +0100
 categories: tdd
 ---
 
-
 Test-Driven Development stanowi specyficzną technikę wytwarzania oprogramowania, zaliczaną do metodyk zwinnych (agile). Jak wynika z samej nazwy, proces tworzenia oprogramowania jest w tym podejściu sterowany / kierowany testami.
 
 
